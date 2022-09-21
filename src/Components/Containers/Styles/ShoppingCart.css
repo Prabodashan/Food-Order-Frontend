@@ -2,6 +2,7 @@
   position: fixed;
   top: 8.5rem;
   right: 0;
+  left: 0;
   z-index: 1000;
   height: calc(100vh - 8.5rem);
   background: #fff;
@@ -42,7 +43,6 @@
 .products-container {
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
-  -webkit-animation: fadeUp 0.4s linear;
   animation: fadeUp 0.4s linear;
 }
 
@@ -55,12 +55,10 @@
   padding: 1.5rem;
 }
 
-
 .cart-total {
   margin-top: 2rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
-  -webkit-animation: fadeUp 0.4s linear 0.4s backwards;
   animation: fadeUp 0.4s linear 0.4s backwards;
 }
 .cart-total .box {
@@ -75,4 +73,13 @@
 
 .cart-total .box h3 span {
   color: #27ae60;
+}
+
+@media (max-width: 450px) {
+  .cart-total .box {
+    text-align: center;
+  }
+  .cart-total .box .btn {
+    width: 100%;
+  }
 }
