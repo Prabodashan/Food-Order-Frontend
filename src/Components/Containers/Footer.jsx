@@ -4,8 +4,8 @@ import "./Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <section class="footer">
-      <div class="newsletter">
+    <section className="footer">
+      <div className="newsletter">
         <h3>newsletter</h3>
         <form action="">
           <input type="email" name="" placeholder="enter your email" id="" />
@@ -13,65 +13,65 @@ const Footer = () => {
         </form>
       </div>
 
-      <div class="box-container">
-        <div class="box">
+      <div className="box-container">
+        <div className="box">
           <h3>our menu</h3>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> pizza
+            <i className="fas fa-arrow-right"></i> pizza
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> burger
+            <i className="fas fa-arrow-right"></i> burger
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> chicken
+            <i className="fas fa-arrow-right"></i> chicken
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> pasta
+            <i className="fas fa-arrow-right"></i> pasta
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> and more...
+            <i className="fas fa-arrow-right"></i> and more...
           </a>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h3>quick links</h3>
           <a href="#home">
-            <i class="fas fa-arrow-right"></i> home
+            <i className="fas fa-arrow-right"></i> home
           </a>
           <a href="#about">
-            <i class="fas fa-arrow-right"></i> about
+            <i className="fas fa-arrow-right"></i> about
           </a>
           <a href="#popular">
-            <i class="fas fa-arrow-right"></i> popular
+            <i className="fas fa-arrow-right"></i> popular
           </a>
           <a href="#menu">
-            <i class="fas fa-arrow-right"></i> menu
+            <i className="fas fa-arrow-right"></i> menu
           </a>
           <a href="#order">
-            <i class="fas fa-arrow-right"></i> order
+            <i className="fas fa-arrow-right"></i> order
           </a>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h3>extra links</h3>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> my order
+            <i className="fas fa-arrow-right"></i> my order
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> my account
+            <i className="fas fa-arrow-right"></i> my account
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> my favorite
+            <i className="fas fa-arrow-right"></i> my favorite
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> terms of use
+            <i className="fas fa-arrow-right"></i> terms of use
           </a>
           <a href="#">
-            <i class="fas fa-arrow-right"></i> privary policy
+            <i className="fas fa-arrow-right"></i> privary policy
           </a>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h3>opening hours</h3>
           <p>monday : 7:00am to 10:00pm</p>
           <p>tuesday : 7:00am to 10:00pm</p>
@@ -81,16 +81,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="bottom">
-        <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-          <a href="#" class="fab fa-linkedin"></a>
-          <a href="#" class="fab fa-pinterest"></a>
+      <div className="bottom">
+        <div className="share">
+          <a href="#" className="fab fa-facebook-f"></a>
+          <a href="#" className="fab fa-twitter"></a>
+          <a href="#" className="fab fa-instagram"></a>
+          <a href="#" className="fab fa-linkedin"></a>
+          <a href="#" className="fab fa-pinterest"></a>
         </div>
 
-        <div class="credit">
+        <div className="credit">
           created by <span>Prabod Ashan</span> | all rights reserved!
         </div>
       </div>

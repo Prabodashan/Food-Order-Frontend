@@ -67,6 +67,10 @@ section {
   background: #130f40;
 }
 
+.active {
+  display: none !important;
+}
+
 @-webkit-keyframes fadeUp {
   0% {
     transform: translateY(5rem);

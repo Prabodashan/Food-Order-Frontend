@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Styles/Global.css";
 
 import Header from "./Components/Containers/Header";
@@ -11,11 +12,22 @@ import Banner from "./Components/Containers/Banner";
 import Footer from "./Components/Containers/Footer";
 
 const App = () => {
+  const [search, setSearch] = useState(false);
+  const [cart, setCart] = useState(false);
+
+  const searchToggle = () => {
+    setSearch(!search);
+  };
+
+  const cartToggle = () => {
+    setCart(!cart);
+  };
+
   return (
     <>
-      <Header />
-      {/* <Search />
-      <ShoppingCart /> */}
+      <Header searchToggle={searchToggle} cartToggle={cartToggle} />
+      {search ? <Search /> : ""}
+      {cart ? <ShoppingCart toggle="app" /> : ""}
       <Hero />
       <Category />
       <About />

@@ -1,16 +1,23 @@
 import React from "react";
 import "./Styles/ShoppingCart.css";
 
+import Cart from "./Cart";
+
 import menuImg1 from "../../Assets/menu-1.png";
 import menuImg2 from "../../Assets/menu-2.png";
 import menuImg3 from "../../Assets/menu-3.png";
 import menuImg4 from "../../Assets/menu-4.png";
 import menuImg5 from "../../Assets/menu-5.png";
-import Cart from "./Cart";
 
-const ShoppingCart = () => {
+const ShoppingCart = ({ toggle }) => {
   return (
-    <section className="shopping-cart-container">
+    <section
+      className={
+        toggle === "app"
+          ? "shopping-cart-container full"
+          : "shopping-cart-container"
+      }
+    >
       <div className="products-container">
         <h3 className="title">My Cart</h3>
 
