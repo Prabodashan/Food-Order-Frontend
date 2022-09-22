@@ -10,11 +10,11 @@ import Cart from "./Cart";
 
 const ShoppingCart = () => {
   return (
-    <section class="shopping-cart-container">
-      <div class="products-container">
-        <h3 class="title">My Cart</h3>
+    <section className="shopping-cart-container">
+      <div className="products-container">
+        <h3 className="title">My Cart</h3>
 
-        <div class="box-container">
+        <div className="box-container">
           <Cart
             img={menuImg1}
             name="delicious food"
@@ -48,18 +48,18 @@ const ShoppingCart = () => {
         </div>
       </div>
 
-      <div class="cart-total">
-        <h3 class="title"> cart total </h3>
+      <div className="cart-total">
+        <h3 className="title"> cart total </h3>
 
-        <div class="box">
-          <h3 class="subtotal">
+        <div className="box">
+          <h3 className="subtotal">
             subtotal : <span>$200</span>
           </h3>
-          <h3 class="total">
+          <h3 className="total">
             total : <span>$200</span>
           </h3>
 
-          <a href="#btn" class="btn">
+          <a href="#btn" className="btn">
             proceed to checkout
           </a>
         </div>

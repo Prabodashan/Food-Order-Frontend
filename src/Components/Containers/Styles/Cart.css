@@ -1,8 +1,6 @@
 .cart {
   border-radius: 0.5rem;
   background: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
   gap: 1.5rem;

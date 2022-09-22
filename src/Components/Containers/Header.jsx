@@ -4,12 +4,12 @@ import "./Styles/Header.css";
 
 const Header = () => {
   return (
-    <header class="header">
-      <a href="#home" class="logo">
-        <i class="fas fa-utensils"></i> food
+    <header className="header">
+      <a href="#home" className="logo">
+        <i className="fas fa-utensils"></i> food
       </a>
 
-      <nav class="navbar">
+      <nav className="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#popular">popular</a>
@@ -18,11 +18,11 @@ const Header = () => {
         <a href="#blogs">blogs</a>
       </nav>
 
-      <div class="icons">
-        <div id="menu-btn" class="fas fa-bars"></div>
-        <div id="search-btn" class="fas fa-search"></div>
-        <div id="cart-btn" class="fas fa-shopping-cart"></div>
-        <div id="login-btn" class="fas fa-user"></div>
+      <div className="icons">
+        <div id="menu-btn" className="fas fa-bars"></div>
+        <div id="search-btn" className="fas fa-search"></div>
+        <div id="cart-btn" className="fas fa-shopping-cart"></div>
+        <div id="login-btn" className="fas fa-user"></div>
       </div>
     </header>
   );

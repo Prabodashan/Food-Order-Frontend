@@ -4,7 +4,7 @@ import "./Styles/Search.css";
 
 const Search = () => {
   return (
-    <section class="search-form-container">
+    <section className="search-form-container">
       <form action="">
         <input
           type="search"
@@ -12,7 +12,7 @@ const Search = () => {
           placeholder="search here..."
           id="search-box"
         />
-        <label for="search-box" class="fas fa-search"></label>
+        <label for="search-box" className="fas fa-search"></label>
       </form>
     </section>
   );

@@ -4,16 +4,16 @@ import "./Styles/Cart.css";
 
 const Cart = ({ img, name, quantity, price }) => {
   return (
-    <div class="cart">
-      <i class="fas fa-times"></i>
+    <div className="cart">
+      <i className="fas fa-times"></i>
       <img src={img} alt="" />
-      <div class="content">
+      <div className="content">
         <h3>{name}</h3>
         <span> quantity : </span>
         <input type="number" name="" value={quantity} id="" />
         <br />
         <span> price : </span>
-        <span class="price"> ${price} </span>
+        <span className="price"> ${price} </span>
       </div>
     </div>
   );
