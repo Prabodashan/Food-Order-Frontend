@@ -5,6 +5,7 @@ import Search from "./Components/Containers/Search";
 import ShoppingCart from "./Components/Containers/ShoppingCart";
 import Hero from "./Components/Containers/Hero";
 import Category from "./Components/Containers/Category";
+import { About } from './Components/Containers/About';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <ShoppingCart /> */}
       <Hero />
       <Category />
+      <About />
     </>
   );
 };
