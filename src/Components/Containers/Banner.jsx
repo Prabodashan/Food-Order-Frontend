@@ -6,6 +6,7 @@ import banner from "../../Assets/row-banner.png";
 import bannerImg1 from "../../Assets/banner-1.png";
 import bannerImg2 from "../../Assets/banner-2.png";
 import bannerImg3 from "../../Assets/banner-3.png";
+import BannerCard from "./BannerCard";
 
 const Banner = () => {
   return (
@@ -22,31 +23,24 @@ const Banner = () => {
       </div>
 
       <div className="grid-banner">
-        <div className="grid">
-          <img src={bannerImg3} alt="" />
-          <div className="content left">
-            <span>limited offer</span>
-            <h3>100% cashback</h3>
-            <button className="btn">order now</button>
-          </div>
-        </div>
-        <div className="grid">
-          <img src={bannerImg2} alt="" />
-          <div className="content center">
-            <span>special offer</span>
-            <h3>upto 25% extra</h3>
-            <button className="btn">order now</button>
-          </div>
-        </div>
-
-        <div className="grid">
-          <img src={bannerImg1} alt="" />
-          <div className="content right">
-            <span>special offer</span>
-            <h3>upto 50% off</h3>
-            <button className="btn">order now</button>
-          </div>
-        </div>
+        <BannerCard
+          img={bannerImg3}
+          title="special offer"
+          body="upto 50% off"
+          align="left"
+        />
+        <BannerCard
+          img={bannerImg2}
+          title="special offer"
+          body="upto 50% off"
+          align="center"
+        />
+        <BannerCard
+          img={bannerImg1}
+          title="special offer"
+          body="upto 50% off"
+          align="right"
+        />
       </div>
     </section>
   );

@@ -8,6 +8,7 @@ import Category from "./Components/Containers/Category";
 import { About } from "./Components/Containers/About";
 import Popular from "./Components/Containers/Popular";
 import Banner from "./Components/Containers/Banner";
+import Footer from "./Components/Containers/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <About />
       <Popular />
       <Banner />
+      <Footer />
     </>
   );
 };

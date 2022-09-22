@@ -15,7 +15,6 @@ const Header = () => {
         <a href="#popular">popular</a>
         <a href="#menu">menu</a>
         <a href="#order">order</a>
-        <a href="#blogs">blogs</a>
       </nav>
 
       <div className="icons">
