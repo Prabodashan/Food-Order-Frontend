@@ -37,14 +37,14 @@
   color: #666;
 }
 
-.icons-container {
+.about .content .icons-container {
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.icons-container .icons {
+.about .content .icons-container .icons {
   flex: 1 1 20rem;
   border-radius: 0.5rem;
   background: #fff;
