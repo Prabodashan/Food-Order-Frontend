@@ -7,6 +7,7 @@ import Hero from "./Components/Containers/Hero";
 import Category from "./Components/Containers/Category";
 import { About } from "./Components/Containers/About";
 import Popular from "./Components/Containers/Popular";
+import Banner from "./Components/Containers/Banner";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Category />
       <About />
       <Popular />
+      <Banner />
     </>
   );
 };
